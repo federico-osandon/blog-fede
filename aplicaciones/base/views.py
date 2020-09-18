@@ -62,7 +62,7 @@ class Inicio(ListView):
             'post_videojuego': post_videojuego,
             'sociales': obtenerRedes(),
             'web': obtenerWeb(),
-        }cd..
+        }
 
         return render(request, 'index.html', contexto)
 
