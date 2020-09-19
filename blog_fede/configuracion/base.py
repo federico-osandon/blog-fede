@@ -31,7 +31,7 @@ SECRET_KEY = 'ae1og7+r*8n1*$_%hq#(svt(2_jxn)s)4$&3ix+n$@kva3h#mf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['genplataforma.pythonanywhere.com']
 
 
 # Application definition
