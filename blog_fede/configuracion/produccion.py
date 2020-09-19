@@ -4,6 +4,7 @@ from .base import *
 DEBUG = False
 
 ALLOWED_HOSTS = ['genplataforma.pythonanywhere.com']
+
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
@@ -14,4 +15,8 @@ DATABASES = {
     }
 }
 
+STATICFILES_DIRS = (BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
