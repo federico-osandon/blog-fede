@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blog_fede.wsgi.application'
+WSGI_APPLICATION = 'blog_fede.wsgi.application.produccion'
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
